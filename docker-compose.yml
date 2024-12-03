@@ -2,6 +2,6 @@ version: "3.3"
 
 services:
   web:
-    build:my-note-app
+    image:jayasri680/my-note-app:latest
     ports:
       - "8000:8000"  
